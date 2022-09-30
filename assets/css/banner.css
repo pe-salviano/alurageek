@@ -1,0 +1,32 @@
+.banner{
+    background: url(../imagens/banner-image.png)no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 352px;
+}
+.banner__titulo{
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--branco);
+    padding: 150px 537px 16px 152px;
+}
+
+.banner__texto{
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--branco);
+    padding:0 537px 32px 152px ;
+}
+.banner__btn{
+    width: 130px;
+    height: 51px;
+    border: 0;
+    background-color: var(--azul);
+    margin: 0 1158px 32px 152px;
+
+}
+.banner__link--btn{
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 16px;
+}

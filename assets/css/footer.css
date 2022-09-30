@@ -1,0 +1,8 @@
+.footer__info-desenvolvedor{
+    background: var(--branco);
+    margin: 32px auto;
+    text-align: center;
+}
+.footer__texto{
+    font-weight: 500;
+}

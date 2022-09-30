@@ -1,0 +1,27 @@
+@import url("./header.css");
+@import url("./banner.css");
+@import url("./produtos.css");
+@import url("./rodape__form.css");
+@import url("./footer.css");
+
+
+:root{
+    --branco:#ffffff;
+    --cinza-claro:#F5F5F5;
+    --cinza-medio:#A2A2A2;
+    --cinza-escuro:#464646;
+    --cor-fundo-main:#E5E5E5;
+    --azul:#2A7AE4;
+    --cor-fundo-rodape:#EAF2FD;
+    --fonte-principal: 'Raleway', sans-serif;
+}
+
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
