@@ -1,9 +1,13 @@
-@import url(./header.css);
-@import url(./banner.css);
-@import url(./produtos.css);
-@import url(./footer.css);
+/* Importação do CSS */
+@import url(../header.css);
+@import url(../banner.css);
+@import url(../produtos.css);
+@import url(../footer.css);
+@import url(../login.css);
 
+/* Variaveis CSS */
 :root{
+    /* Cores utilizadas */
     --branco:#ffffff;
     --cinza-claro:#F5F5F5;
     --cinza-medio:#A2A2A2;
@@ -12,13 +16,15 @@
     --cor-fundo-produtos:#E5E5E5;
     --azul:#2A7AE4;
     --cor-fundo-rodape:#EAF2FD;
+
+    /* Fonte */
     --fonte-principal: 'Raleway', sans-serif;
 }
 
+
 body{
+    /* Padrão para o Body */
     font-family: var(--fonte-principal);
     font-size: 16px;
-    font-weight: 400;
-
-    
+    font-weight: 400; 
 }

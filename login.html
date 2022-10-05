@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AluraGeek</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="./assets/css/base/reset.css">
+        <link rel="stylesheet" href="./assets/css/base/style.css">
+        <!-- FONTES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    </head>
+    <body>
+        <!-- cabeçalho -->
+    <header class="cabecalho">
+        <div class="container">
+            <img src="./assets/imagens/Logo-alurageek.svg" alt="Logo AluraGeek" class="cabecalho__img--logo">
+            <input type="search" placeholder="O que deseja encontrar?" class="container__pesquisa">
+            <button type="button" class="btn__login login__btn--cabecalho"><a href="#" class="link__btn--login">Login</a></button>  
+        </div>
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__btn--login">
+            <label for="menu">
+            <span class="cabecalho__lupa-pesquisa"></span>
+            </label>
+            <div class="menu__pesquisa--aberto">
+                <input type="text" placeholder="O que deseja encontrar?" class="pesquisa__cabecalho">
+            </div>
+        </div>
+    </header>
+    <section class="login">
+        <div class="login__form">
+            <h2 class="login__titulo login__titulo--responsivo">Iniciar Sessão</h2>
+            <input type="email" placeholder="Escreva seu email" class="login__email" >
+            <input type="password" placeholder="Escreva sua senha" class="login__senha">
+            <button type="submit" class="login__btn"><a href="#" class="login__link--btn">Enviar</a></button>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <section class="rodape__categoria">
+        <img src="./assets/imagens/Logo-alurageek.svg" alt="Logo AluraGeek" class="rodape__logo--alurageek">
+        <ul>
+            <li class="rodape__item">
+                <img src="./assets/imagens/Logo-alurageek.svg" alt="Logo AluraGeek" class="rodape__logo--medio rodape__logo-medio ">
+            </li>
+            <li class="rodape__item">
+                <a href="" class="rodape__link--item">Quem somos nós</a>
+            </li>
+            <li class="rodape__item">
+                <a href="" class="rodape__link--item">Política de privacidade</a>
+            </li>
+            <li class="rodape__item">
+                <a href="" class="rodape__link--item">Programa fidelidade</a>
+            </li>
+            <li class="rodape__item">
+                <a href="" class="rodape__link--item">Nossas lojas</a>
+            </li>
+            <li class="rodape__item">
+                <a href="" class="rodape__link--item">Quero ser franqueado</a>
+            </li>
+            <li class="rodape__item">
+                <a href="" class="rodape__link--item">Anuncie aqui</a>
+            </li>
+        </ul>
+        <section class="contato">
+            <h2 class="contato__titulo">Fale conosco</h2>
+            <input type="text" id="nome" name="nome" class="contato__label-nome" placeholder="Escreva seu nome">
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensgaem" class="contato__mensagem"></textarea>
+            <button class="contato__botao-enviar">Enviar mensagem</button>
+        </section>
+    </section>
+    <footer class="info__desenvolvedor">
+        <p class="info__texto">Copyright© Pedro Salviano 2022</p>  
+    </footer>
+        
+    </body>
+</html>
