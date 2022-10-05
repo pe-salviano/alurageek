@@ -1,32 +1,92 @@
 .banner{
-    background: url(../imagens/banner-image.png)no-repeat;
-    background-position: center center;
+    background: url(../imagens/banner-mobile.png)no-repeat;
+    background-position:center;
     background-size: cover;
-    height: 352px;
+    height: 192px;
 }
 .banner__titulo{
-    font-size: 52px;
-    font-weight: 700;
-    color: var(--branco);
-    padding: 150px 537px 16px 152px;
-}
-
-.banner__texto{
     font-size: 22px;
     font-weight: 700;
+    width: 328px;
+    height: 26px;
     color: var(--branco);
-    padding:0 537px 32px 152px ;
+    padding: 78px 16px 0px 16px;
 }
-.banner__btn{
-    width: 130px;
-    height: 51px;
+.banner__texto{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--branco);
+    width: 328px;
+    height: 26px;
+    padding:8px 16px 0 16px;
+}
+.banner__btn--info{
+    width: 119px;
+    height: 40px;
     border: 0;
     background-color: var(--azul);
-    margin: 0 1158px 32px 152px;
-
+    margin: 0 16px 225px 16px;
 }
 .banner__link--btn{
     text-decoration: none;
     color: var(--branco);
     font-size: 16px;
+    font-weight: 600;
+}
+
+@media screen and (min-width:768px) {
+    .banner{
+        background: url(../imagens/banner-tablet.png) no-repeat;
+        background-position:right center;
+        background-size: cover;
+        height: 352px;
+    }
+    .banner__titulo{
+        font-size: 52px;
+        font-weight: 700;
+        width: 704px;
+        padding: 161px 32px 16px 32px;
+    }
+    .banner__texto{
+        width: 704px;
+        font-size: 22px;
+        font-weight: 700;
+        padding: 0 32px 0 34px;
+        margin-top: 16px;
+    }
+    .banner__btn--info{
+        margin: 16px 617px 32px 32px;
+    }
+    .banner__link--btn{
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: var(--fonte-principal);
+    }
+}
+@media screen and (min-width:1440px) {
+    .banner{
+        background: url(../imagens/banner-grande.png) no-repeat;
+        background-position:center center;
+        background-size: cover;
+        height: 352px;
+        padding: 32px;
+    }
+    .banner__titulo{
+        padding: 150px 537px 16px 152px;
+    }
+    .banner__texto{
+        padding: 0 537px 16px 152px;
+    }
+    .banner__btn--info{
+        margin: 0 1158px 32px 152px;
+        width: 130px;
+        height: 51px;
+        
+    }
+    .banner__link--btn{
+        font-size: 16px;
+        font-family: var(--fonte-principal);
+        font-weight: 400;
+    }
 }

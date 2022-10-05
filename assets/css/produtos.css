@@ -1,67 +1,94 @@
-
-.principal{
-    background-color: var(--cor-fundo-main);
-    margin: 0 auto;
-    padding-bottom:64px;
-    
+.produtos{
+    background-color: var(--cor-fundo-produtos);
 }
-.produtos__categoria{
+
+.galeria__produtos{
+    padding: 16px;
+}
+.galeria__cabecalho{
     display: flex;
-    justify-content: space-between;
-    padding: 64px 159px 16px 152px;
-    max-width: 1136px;
     align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
 }
-.produtos__titulo{
+.galeria__titulo{
+    font-size: 22px;
+    font-weight: 700;
     color: var(--cinza-escuro);
-    font-weight: 700;
-    font-size: 32px;
-    
     
 }
-.produtos__btn{
-    background: transparent;
-    border: 0;
-
-}
-.produtos__link--btn{
+.item__botao--ver-mais{
+    font-size: 14px;
     font-weight: 700;
-    font-size: 16px;
     text-decoration: none;
     color: var(--azul);
 }
-.produtos__btn--seta{
-    width: 11px;
-    height: 13px;
-}
-.produtos{
+.galeria__item{
     display: flex;
-    max-width: 1136px;
-    margin: 0 152px 0 135px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.produtos__item{
-    margin-left:16px;  
+.card__item{
+    width: 48%;
+    margin-bottom: 16px;
+}
+.card__item--disabled{
+    display: none;
 }
 
-.produtos__img{
-    width: 176px;
-    height: 174px;
+.item__imagem{
+    border-radius: 2.5px;
+    width: 100%;
+    padding-bottom: 8px;
 }
-.produtos__item--info{
-    padding-top: 8px;
-}
-.produtos__item--titulo{
+.item__nome--produto{
     font-size: 14px;
     font-weight: 500;
-
+    color: var(--cinza-escuro);
+    padding-bottom: 8px;
 }
-.produtos__item--preco{
+.item__valor{
+    font-size: 16px;
     font-weight: 700;
-    padding: 8px 0 8px 0;
+    color: var(--cinza-escuro);
+    padding-bottom: 8px;
 }
-.produtos__ver--Produto{
+.item__botao{
+    font-size:14px ;
+    font-weight: 700;
     text-decoration: none;
-    font-weight: 700;
-    
+    color:var(--azul);
+}
+
+@media screen and (min-width:768px) {
+    .card__item{
+        width: 24%;
+    }
+    .galeria__produtos{
+        padding: 32px;
+
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .galeria__produtos{
+        padding: 16px 152px 64px 152px;
+
+    }
+    .galeria__titulo{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .item__botao--ver-mais{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .card__item{
+        width: 16%;
+        
+    }
+    .card__item--disabled{
+        display: block;
+    }
     
 }
