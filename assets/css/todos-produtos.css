@@ -23,3 +23,39 @@
     font-family: var(--fonte-principal);
 
 }
+.card__item{
+    position: relative;
+
+}
+.icon__apagar--produto{
+    padding: 11px 53px 145px 73px;
+
+}
+.icon__editar--produto{
+    padding: 11px 11px 145px 0;
+}
+.icon__apagar--produto, .icon__editar--produto{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media screen and (min-width:768px) {
+    
+    .todos__produtos{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .galeria__todos--produtos{
+        padding: 70.5px 152px 64px 152px;
+    }
+    .todos__produtos--titulo{
+        font-size: 32px;
+        font-weight: 700;
+    }
+}
