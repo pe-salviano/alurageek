@@ -1,0 +1,25 @@
+.galeria__todos--produtos{
+    padding: 32px;
+
+}
+.galeria__todos--produtos{
+    font-size: 22px;
+    font-weight: 700;
+
+}
+.btn__adicionar--produtos{
+    width: 151px;
+    height: 40px;
+    background: var(--azul);
+    border: 0;
+    margin: 16px 0;
+
+}
+.link__adicionar--produtos{
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--fonte-principal);
+
+}
