@@ -59,8 +59,7 @@
     text-decoration: none;
 }
 
-/* responsivo para tablet */
-
+/* responsividade para tablet */
 @media screen and (min-width:768px) {
 
     /* Cabeçalho login */
@@ -76,6 +75,7 @@
     }   
 }
 
+/* responsividade desktop*/
 @media screen and (min-width:1440px) {
     .login__email, .login__senha{
         width: 423px;

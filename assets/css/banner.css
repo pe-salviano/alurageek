@@ -34,6 +34,7 @@
     font-weight: 600;
 }
 
+/* responsividade tablet */
 @media screen and (min-width:768px) {
     .banner{
         background: url(../imagens/banner-tablet.png) no-repeat;
@@ -64,6 +65,8 @@
         font-family: var(--fonte-principal);
     }
 }
+
+/* responsividade desktop*/
 @media screen and (min-width:1440px) {
     .banner{
         background: url(../imagens/banner-grande.png) no-repeat;

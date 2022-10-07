@@ -60,6 +60,7 @@
     color:var(--azul);
 }
 
+/* responsividade tablet */
 @media screen and (min-width:768px) {
     .card__item{
         width: 24%;
@@ -70,6 +71,7 @@
     }
 }
 
+/* responsividade desktop*/
 @media screen and (min-width:1440px) {
     .galeria__produtos{
         padding: 16px 152px 64px 152px;

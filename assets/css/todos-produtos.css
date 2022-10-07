@@ -39,7 +39,8 @@
     top: 0;
     right: 0;
 }
-
+ 
+/* responsividade para tablet */
 @media screen and (min-width:768px) {
     
     .todos__produtos{
@@ -50,6 +51,7 @@
     }
 }
 
+/* responsividade desktop*/
 @media screen and (min-width:1440px) {
     .galeria__todos--produtos{
         padding: 70.5px 152px 64px 152px;

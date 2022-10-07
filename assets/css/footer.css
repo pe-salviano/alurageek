@@ -89,7 +89,7 @@
     text-align: center;
     font-weight: 500;
 }
-
+/* responsividade tablet */
 @media screen and (min-width:768px) {
     .rodape__categoria{
         display: flex;
@@ -115,6 +115,7 @@
     }
 }
 
+/* responsividade desktop*/
 @media screen and (min-width:1440px) {
     .rodape__categoria{
         padding: 64px 152px;

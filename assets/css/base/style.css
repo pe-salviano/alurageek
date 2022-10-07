@@ -5,6 +5,7 @@
 @import url(../footer.css);
 @import url(../login.css);
 @import url(../todos-produtos.css);
+@import url(../adicionar-produtos.css);
 
 /* Variaveis CSS */
 :root{
@@ -28,4 +29,5 @@ body{
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400; 
+    
 }
